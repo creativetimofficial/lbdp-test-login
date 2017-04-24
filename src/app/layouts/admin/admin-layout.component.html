@@ -1,0 +1,68 @@
+
+<div class="wrapper">
+    <div class="sidebar" data-color="red" data-image="">
+
+
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="logo-text">
+                        <div class="logo-img">
+                            <img src="/assets/img/angular2-logo-white.png"/>
+                        </div>
+                        Creative Tim
+                    </a>
+                </div>
+                <div class="logo logo-mini">
+                    <a href="http://www.creative-tim.com" class="logo-text">
+                        Ct
+                    </a>
+                </div>
+
+                <div class="sidebar-wrapper">
+
+                    <div class="user">
+                        <div class="photo">
+                            <img src="../assets/img/default-avatar.png" />
+                        </div>
+                        <div class="info">
+                            <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+                                Tania Andrew
+                                <b class="caret"></b>
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <ul class="nav">
+                                    <li><a href="#">My Profile</a></li>
+                                    <li><a href="#">Edit Profile</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="nav">
+                        <li routerLinkActive="active">
+                            <a  [routerLink]="[menuItems[0].path]">
+                                <i class="{{menuItems[0].icon}}"></i>
+                                <p>{{menuItems[0].title}}</p>
+                            </a>
+                        </li>
+                        <li routerLinkActive="active">
+                            <a  [routerLink]="[menuItems[1].path]">
+                                <i class="{{menuItems[1].icon}}"></i>
+                                <p>{{menuItems[1].title}}</p>
+                            </a>
+                        </li>
+                        <li routerLinkActive="active">
+                            <a  [routerLink]="[menuItems[2].path]">
+                                <i class="{{menuItems[2].icon}}"></i>
+                                <p>{{menuItems[2].title}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+        <div class="sidebar-background" style="background-image: url(assets/img/full-screen-image-3.jpg)"></div>
+    </div>
+    <div class="main-panel">
+        <router-outlet></router-outlet>
+    </div>
+</div>

@@ -1,10 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+// import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 
+declare var $:any;
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'my-app',
+    templateUrl: './app.component.html'
 })
-export class AppComponent {
-  title = 'app works!';
+
+export class AppComponent implements OnInit{
+    // location: Location;
+    // constructor(location:Location) {
+    //     this.location = location;
+    // }
+    ngOnInit(){
+        //  $.getScript('../assets/js/light-bootstrap-dashboard.js');
+        //  $.getScript('../assets/js/init/initMenu.js');
+    }
+    // public isMap(){
+    //     // console.log(this.location);
+    //     if(this.location.prepareExternalUrl(this.location.path()) == '#/maps/fullscreen'){
+    //         return true;
+    //     }
+    //     else {
+    //         return false;
+    //     }
+    // }
 }
