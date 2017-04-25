@@ -45,11 +45,28 @@
                                 <p>{{menuItems[0].title}}</p>
                             </a>
                         </li>
-                        <li routerLinkActive="active">
+                        <!-- <li routerLinkActive="active">
                             <a  [routerLink]="[menuItems[1].path]">
                                 <i class="{{menuItems[1].icon}}"></i>
                                 <p>{{menuItems[1].title}}</p>
                             </a>
+                        </li> -->
+                        <li routerLinkActive="active">
+                            <a data-toggle="collapse" class="collapsed" aria-expanded="false" href="#componentsExamples">
+                                <i class="pe-7s-plugin"></i>
+                                <p>Components
+                                    <b class="caret"></b>
+                                </p>
+                            </a>
+                            <div class="collapse" id="componentsExamples">
+                                <ul class="nav">
+                                    <li routerLinkActive="active">
+                                        <a  [routerLink]="[menuItems[1].path]">
+                                            {{menuItems[1].title}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li routerLinkActive="active">
                             <a  [routerLink]="[menuItems[2].path]">

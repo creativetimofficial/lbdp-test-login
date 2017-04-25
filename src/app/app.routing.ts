@@ -12,10 +12,15 @@ export const AppRoutes: Routes = [
     {
       path: '',
       component: AdminLayoutComponent,
-      children: [{
+      children: [
+          {
         path: '',
         loadChildren: './home/home.module#HomeModule'
-      }]
+    },{
+        path: 'components',
+        loadChildren: './components/components.module#ComponentsModule'
+      }
+  ]
     },
     {
       path: '',

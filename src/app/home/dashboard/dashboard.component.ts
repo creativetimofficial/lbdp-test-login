@@ -4,10 +4,10 @@ import * as Chartist from 'chartist';
 declare var $:any;
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html'
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html'
 })
-export class HomeComponent implements OnInit {
+export class DashboardComponent implements OnInit {
 
   // constructor(private navbarTitleService: NavbarTitleService, private notificationService: NotificationService) { }
 

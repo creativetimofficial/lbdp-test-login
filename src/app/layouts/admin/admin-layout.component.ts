@@ -7,9 +7,9 @@ export interface RouteInfo {
 }
 
 export const ROUTES: RouteInfo[] = [
-    { path: '/home/dashboard', title: 'Dashboard', icon: 'pe-7s-graph' },
+    { path: '/dashboard', title: 'Dashboard', icon: 'pe-7s-graph' },
 
-    { path: '/pages/user', title: 'User', icon:'pe-7s-plugin' },
+    { path: '/components/buttons', title: 'Buttons', icon:'pe-7s-plugin' },
     { path: '/pages/login', title: 'Login', icon:'pe-7s-plugin' }
 
 ]

@@ -3,16 +3,16 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HomeRoutes } from './home.routing';
+import { ButtonsComponent } from './buttons/buttons.component';
+import { ComponentsRoutes } from './components.routing';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(HomeRoutes),
+    RouterModule.forChild(ComponentsRoutes),
     FormsModule
   ],
-  declarations: [DashboardComponent]
+  declarations: [ButtonsComponent]
 })
 
-export class HomeModule {}
+export class ComponentsModule {}

@@ -23,7 +23,7 @@
       ],
       "scripts": [
           "../node_modules/jquery/dist/jquery.js",
-          "../src/assets/js/plugins/chartist.min.js",
+          "../src/assets/js/core/bootstrap.min.js",
           "../src/assets/js/dashboard.js"
       ],
       "environmentSource": "environments/environment.ts",
