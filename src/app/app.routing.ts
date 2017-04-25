@@ -6,14 +6,14 @@ import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 export const AppRoutes: Routes = [
     {
       path: '',
-      redirectTo: 'home',
+      redirectTo: 'dashboard',
       pathMatch: 'full',
     },
     {
       path: '',
       component: AdminLayoutComponent,
       children: [{
-        path: 'home',
+        path: '',
         loadChildren: './home/home.module#HomeModule'
       }]
     },
