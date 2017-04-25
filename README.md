@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 **Getting Started**
 <ul>
-    <li><p>Install NodeJs from  [NodeJS](https://nodejs.org/en)</p></li>
+    <li><p>Install NodeJs from  [NodeJS](https://nodejs.org/en)
     <li><p>Open Terminal</p></li>
     <li><p>Go to your file project</p></li>
     <li><p>Run in terminal:<pre>npm install -g @angular/cli</pre></p></li>
