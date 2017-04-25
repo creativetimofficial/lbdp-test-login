@@ -9,9 +9,9 @@ $(document).ready(function(){
     });
 
 	console.log('fac init charts dupa 1 secundta');
-	setTimeout(function(){
-		demo.initChartist();
-	}, 1000);
+	// setTimeout(function(){
+	// 	demo.initChartist();
+	// }, 1000);
 
 	//   demo.showNotification();
 })
