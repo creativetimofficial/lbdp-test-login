@@ -219,3 +219,10 @@ export class AppModule { }
 
 
 `app.module.ts` contains two layouts,  AdminLayoutComponent and AuthLayoutComponent. The first one is for Admin Page and the last one for Authentication.
+
+
+
+To use Chartist you have to call it as follows: `import * as Chartist from 'chartist';
+`
+
+If you want to see some examples of how Chartist is used, look in: `src/app/home/dashboard/dashboard.component.ts`.
