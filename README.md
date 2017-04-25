@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
-#Getting Started
-    Install NodeJs from  [NodeJS](https://nodejs.org/en)
-    <ul>
+**Getting Started**
+<ul>
+    <li><p>Install NodeJs from  [NodeJS](https://nodejs.org/en)</p></li>
     <li><p>Open Terminal</p></li>
     <li><p>Go to your file project</p></li>
     <li><p>Run in terminal:<pre>npm install -g @angular/cli</pre></p></li>
