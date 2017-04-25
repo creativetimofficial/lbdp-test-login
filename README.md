@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
+#Getting Started
+    Install NodeJs from  [NodeJS](https://nodejs.org/en)
+    <ul>
+    <li><p>Open Terminal</p></li>
+    <li><p>Go to your file project</p></li>
+    <li><p>Run in terminal:<pre>npm install -g @angular/cli</pre></p></li>
+    <li><p>Then:<pre>npm install</pre></p></li>
+    <li><p>And: <pre>ng serve</pre></p></li>
+    <li><p>Navigate to: [http://localhost:4201/](http://localhost:4201/)
+</ul>
+
 The file structure of our project is:
 
 ```
